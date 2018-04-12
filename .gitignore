@@ -1,0 +1,8 @@
+.idea/
+ionic-login-facebook.iml
+node_modules/
+package-lock.json
+.sourcemaps/
+plugins/
+www/
+resources/

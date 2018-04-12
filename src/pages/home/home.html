@@ -1,0 +1,14 @@
+<ion-content padding>
+    <div *ngIf="user">
+        <div *ngIf="user.picture"><img [src]="user.picture.data.url"></div>
+        <div *ngIf="user.id">{{user.id}}</div>
+        <div *ngIf="user.name">{{user.name}}</div>
+        <div *ngIf="user.first_name">{{user.first_name}}</div>
+        <div *ngIf="user.last_name">{{user.last_name}}</div>
+        <div *ngIf="user.email">{{user.email}}</div>
+    </div>
+
+    <button class="button-facebook" ion-button round full no-shadow icon-start color="light" color="light" type="button" (click)="onClickFacebook()">
+        Login with Facebook
+    </button>
+</ion-content>
